@@ -37,7 +37,7 @@
                    alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title mb-2">Triangle</h2>
+                  <h2 id="N-Triangle" class="card-title mb-2" >Triangle</h2>
                   <p class="mb-2">Area (A) =0.5 x b x h</p>
 
                 
@@ -60,7 +60,7 @@
                    alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title mb-2">rectangle</h2>
+                  <h2 id="N-rectangle" class="card-title mb-2">Rectangle</h2>
                   <p class="mb-2">Area (A) = w x I</p>
 
                 
@@ -83,7 +83,8 @@
                    alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title mb-2">Parallelogram</h2>
+                  <h2 id="N-Parallelogram" class="card-title mb- 
+                2">Parallelogram</h2>
                   <p class="mb-2">Area (A) = b x h</p>
 
                 
@@ -106,8 +107,9 @@
                    alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title mb-2">Rhombus</h2>
-                  <p class="mb-2">Area (A) =0.5 x  d1 x d2</p>
+                  <h2 id="N-Rhombus" class="card-title mb-2">Rhombus</h2>
+                  <p class="mb-2">Area (A) =0.5   x  d<sub>1</sup> x 
+                      d<sub>2</sub></p>
 
                 
                  <h3><input id="Rhombus-input-1" class="w-1/4 px-2 
@@ -129,7 +131,7 @@
                    alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title mb-2">Pentagon</h2>
+                  <h2 id="N-Pentagon" class="card-title mb-2">Pentagon</h2>
                   <p class="mb-2">Area (A) =0.5 x p x b</p>
 
                 
@@ -152,7 +154,7 @@
                    alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                  <h2 class="card-title mb-2">Ellipse</h2>
+                  <h2 id="N-Ellipse" class="card-title mb-2">Ellipse</h2>
                   <p class="mb-2">Area (A) =πab</p>
 
                 
@@ -179,21 +181,14 @@
                 <!-- head -->
                 <thead>
                   <tr>
-                    <th>No</th>
-                    <th>Name</th>
-                    <th>Calculate Area</th>
-                    <th>Convert to m3</th>
+                    <th class="bg-slate-200 rounded">No</th>
+                    <th class="bg-slate-200 rounded">Name</th>
+                    <th class="bg-slate-200 rounded">Calculate Area</th>
+                    <th id="id" class="bg-slate-200 rounded">Convert to m<sup>3</sup></th>
                   </tr>
                 </thead>
-                <tbody>
-                  <!-- row 1 -->
-                  <!-- <tr>
-                    <th>1</th>
-                    <td>Cy Ganderton</td>
-                    <td>Quality Control Specialist</td>
-                    <td>Blue</td>
-                  </tr> -->
-                  <!-- row 2 -->
+                <tbody id="table-container">
+                  
                 </tbody>
               </table>
             </div>
@@ -203,5 +198,6 @@
 
     <script src="/js/common.js"></script>
     <script src="/js/Areacalcalculate.js"></script>
+    <source src="/js/textfield.js" type="">
 </body>
 </html>

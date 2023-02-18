@@ -7,3 +7,18 @@ function inputField(elementId){
     }
     return inputField;
 }
+
+function DisplayData(n,A,p){
+    const container=document.getElementById("table-container")
+    const tr=document.createElement("tr");
+    tr.innerHTML=`
+    <td>${Serial}</td>
+    <td>${n}</td>
+    <td>${p}</td>
+    <td>${A}</td>
+    
+
+    `;
+    container.appendChild(tr);
+
+}
