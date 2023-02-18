@@ -1,3 +1,5 @@
+
+// function one for use all the card id inner input  and validation 
 function inputField(elementId){
     const inputFieldStringId = document.getElementById(elementId);
     const inputFieldString = inputFieldStringId.value;
@@ -7,7 +9,7 @@ function inputField(elementId){
     }
     return inputField;
 }
-
+// function 2 for table input the calculate value all the card button
 function DisplayData(n,A,p){
     const container=document.getElementById("table-container")
     const tr=document.createElement("tr");
@@ -15,10 +17,12 @@ function DisplayData(n,A,p){
     <td>${Serial}</td>
     <td>${n}</td>
     <td>${p}</td>
-    <td>${A}</td>
-    
+    <td>${A}</td> 
 
     `;
     container.appendChild(tr);
 
 }
+document.getElementById('btn-blog').addEventListener('click',function(){
+    window.location.href= 'ans.html';
+})
